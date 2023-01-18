@@ -8,7 +8,7 @@ Authors@R: c(
     person("Christina", "Kendziorski", role = "ctb")
   )
 Depends: 
-    R (>= 4.2.0),
+    R (>= 4.0.0),
 Imports: 
     stats,
     methods,
