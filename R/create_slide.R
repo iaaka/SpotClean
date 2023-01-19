@@ -80,7 +80,7 @@ createSlide <- function(count_mat, slide_info, gene_cutoff=0.1, verbose=TRUE){
     count_ts_mat <- count_mat[,slide_info$slide$tissue==1]
 
     # filter genes
-    gene_cutoff <- max(gene_cutoff,0)
+    #gene_cutoff <- max(gene_cutoff,0)
     good_gene <- rowMeans(count_ts_mat)>gene_cutoff
 
     if(verbose){
